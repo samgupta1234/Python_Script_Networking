@@ -17,7 +17,7 @@ tn.write(b"enable\n")
 tn.write(b"samar123\n")
 tn.write(b"conf t\n")
 
-for n in range (2,101):
+for n in range (2,21):
     tn.write(b"vlan " + str(n).encode('ascii') + b"\n")
     tn.write(b"name Python_VLAN_" + str(n).encode('ascii') + b"\n")
 
