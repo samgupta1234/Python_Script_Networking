@@ -14,7 +14,7 @@ if password:
     tn.write(password.encode('ascii') + b"\n")
 
 tn.write(b"enable\n")
-tn.write(b"cisco\n")
+tn.write(b"samar123\n")
 tn.write(b"conf t\n")
 
 for n in range (2,101):
