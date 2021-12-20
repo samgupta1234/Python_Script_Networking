@@ -14,7 +14,7 @@ if password:
     tn.write(password.encode('ascii') + b"\n")
 
 tn.write(b"ena\n")
-tn.write(b"cisco\n")
+tn.write(b"samar123\n")
 tn.write(b"sh ip int bri\n")
 tn.write(b"conf t\n")
 tn.write(b"int lo0\n")
