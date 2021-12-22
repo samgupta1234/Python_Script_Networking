@@ -31,3 +31,30 @@ for devices in all_devices:
     net_connect = ConnectHandler(**devices)
     output = net_connect.send_config_set(lines)
     print (output)
+
+    
+    
+============================
+iosv_l2_cisco_design: Below are the commands we can test or can run any command which are supported into the running devices.
+snmp-server community sam RO
+snmp-server community sam RW
+
+ntp server 87.81.181.2 
+ntp update-calendar
+
+clock timezone PST -8
+clock summer-time PDT recurring
+service timestamps debug datetime msec localtime 
+service timestamps log datetime msec localtime
+
+vlan 100
+ name Data
+vlan 101
+ name Voice
+vlan 102
+ name Test 
+
+interface vlan 1
+ description In-band Management
+
+ip default-gateway 192.168.122.1
