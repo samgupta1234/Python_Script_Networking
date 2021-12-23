@@ -8,3 +8,4 @@ apt-get install python3-pip
 pip3 install -U netmiko
 pip3 install -U napalm
 pip3 install -U simplejson
+
