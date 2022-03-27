@@ -1,8 +1,7 @@
-# Networking 
+## Networking 
 PYTHON SCRIPTS!!
 
-
-install Python3 Netmiko and NAPALM on the Network Automation Container:
+install Python3 Netmiko and NAPALM on the Network Automation Container: 
 
 apt-get update
 
